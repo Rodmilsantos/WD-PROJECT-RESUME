@@ -1,13 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat$display=swap');
-body{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
     background-image: linear-gradient(#636162, #b1afaf);
     height: 122vh;
     font-weight: bold;
     letter-spacing: 2px;
 }
-*{
-    margin: 0px; padding: 0px; font-family: 'Montserrat', sans-serif;
-} 
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .main {
     background-color: white;
     height: auto;
@@ -15,37 +20,42 @@ body{
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
-    top: 50%;
+    top: 60%;
 }
-.left{
+
+.left {
     background-color: #fbb03b;
-    width: 210px;
+    width: 200px;
     height: 100%;
     float: left;
 }
-.right{
+
+.right {
     width: 450px;
     float: left;
 }
-.profile-img{
+
+.profile-img {
     height: 180px;
     width: 180px;
     background-color: #ddd;
     border-radius: 50%;
     margin-bottom: 20px;
     margin-left: 60px;
-    border: 10px; solid #fbb03b;
-    box-shadow: 6px 7px 9px 5px #fbb03b73
-}
-.profile-img img{
-    width: 100%;;
-    border-radius: 50%;    
+    border: 10px solid #fbb03b;
+    box-shadow: 6px 7px 9px 5px #fbb03b73;
 }
 
-.box-1{
+.profile-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.box-1 {
     position: relative;
 }
-.heading{
+
+.heading {
     background-color: #4d4d4d;
     padding: 10px;
     color: #fbb03b;
@@ -53,7 +63,8 @@ body{
     padding-left: 20px;
     margin-right: -15px;
 }
-.heading::after{
+
+.heading::after {
     content: '';
     position: absolute;
     width: 21px;
@@ -61,42 +72,119 @@ body{
     background-color: #5a5959;
     left: 191px;
     top: 26px;
-    transform:rotate(56deg);
+    transform: rotate(56deg);
     z-index: -1;
 }
-.p1{
+
+.p1 {
     padding: 9px 10px;
     font-size: 11px;
 }
-.icons1{
+
+.icons1 {
     font-size: 16px!important;
-    padding-right: 10px!important;
+    padding-right: 11px!important;
     vertical-align: sub;
 }
-.skill-cointainer{
-    width: 90%;
-    background-color: #4d4d4d;
+
+.icons1:hover,
+.icons2:hover,
+.icons3:hover {
+    color: #ff9b00; /* Change the color when hovering */
+    transform: scale(1.2); /* Slightly enlarge the icon */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.skill-cointainer {
+    width: 100%;
+    background-color: #070606;
     margin: 0px 10px;
 }
-.skill{
+
+.skill {
     text-align: right;
     padding-top: 2px;
     padding-bottom: 2px;
     color: white;
 }
-.html{
-    width: 90%;
+
+.html {
+    width: 80%;
     background-color: white;
 }
-.javascript{
-    width: 90%;
+
+.javascript {
+    width: 85%;
     background-color: white;
 }
-.css{
-    width: 90%;
+
+.css {
+    width: 80%;
     background-color: white;
 }
-.devc{
-    width: 90%;
+
+.devc {
+    width: 85%;
     background-color: white;
+}
+
+.web {
+    width: 80%;
+    background-color: white;
+}
+
+.gra {
+    width: 80%;
+    background-color: white;
+}
+
+.icons2 {
+    padding: 18px 10px;
+}
+
+.name-div {
+    padding: 86px 0px 60px 55px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.name-div h1 {
+    margin-bottom: 10px;
+}
+
+.box-2 {
+    padding: 0px 50px;
+    margin-top: 30px;
+}
+
+.p2 {
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 18px;
+    margin-top: 5px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.icons3 {
+    vertical-align: bottom;
+    font-size: 21px!important;
+    color: #4d4d4d;
+}
+
+.p3 {
+    font-size: 13px;
+    word-spacing: 1px;
+    letter-spacing: 0px;
+    margin-top: 10px;
+}
+
+.p3 span {
+    color: #ff9b00;
+    padding-left: 20px;
 }

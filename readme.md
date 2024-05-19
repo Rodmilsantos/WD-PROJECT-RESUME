@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src= alt= width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Title</h3>
@@ -111,4 +111,6 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| how to create css Icon Hover Effects - Font Awesome icon - Css Hover Effects - Pure CSS Tutorial | create css Icon Hover Effects | https://www.youtube.com/watch?v=5OZAgdYmiHQ&list=PL5e68lK9hEzdTh2M77WnolxczIsHHkgE3&index=2 |
+
+| How to create the Resume CV design using HTML and CSS -- Resume Design -- CV Design | create the Resume CV design using HTML and CSS |https://www.youtube.com/watch?v=kqYOdvwAE7E&t=768s |
