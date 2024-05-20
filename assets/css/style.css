@@ -90,9 +90,9 @@ body {
 .icons1:hover,
 .icons2:hover,
 .icons3:hover {
-    color: #ff9b00; /* Change the color when hovering */
-    transform: scale(1.2); /* Slightly enlarge the icon */
-    transition: all 0.3s ease; /* Smooth transition */
+    color: #ff9b00; 
+    transform: scale(1.2); 
+    transition: all 0.3s ease; 
 }
 
 .skill-cointainer {
